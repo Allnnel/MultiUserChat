@@ -28,7 +28,7 @@ public class ClientHandler implements Runnable {
     private String userPassword = null;
     private User user;
     private Chat chat;
-    Long charId;
+    private Long charId;
 
     private LocalDateTime lastMessageTime;
     public ClientHandler(Socket socket, MessageService messageService, UsersService usersService, ChatService chatService) {
